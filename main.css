@@ -70,17 +70,20 @@ h2{
 #video{
     margin: auto;
     width: 50%;
+    height: 400px;
    display: block;
 }
 
 .tabla-img{
     border-radius:25% ;
     width: 50%;
+    height: 4rem;
 }
 
 @media screen and (max-width:800px){
 #video{
     width: 75%;
+    height: 150px;
 }
 
     #links{
@@ -95,11 +98,19 @@ h2{
     
     
 }
+.tabla-img{
+   
+    height: 3rem;
+}
 #table-links{
     width:100%;
-    margin: auto;
+    margin: auto;      
+}
+#redes{
+    position: fixed;
+    right: 0;
+    top: 0;
     
-        
 }
 #a{
     height: 1000px;
