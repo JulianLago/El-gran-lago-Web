@@ -2,7 +2,7 @@
     background: url(img/backg.jpg);
     background-size: 100%; 
     
-    filter: blur(25px);
+    
    position: fixed;
    z-index: -1;
    transform: scale(1.5);
